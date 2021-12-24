@@ -13,7 +13,7 @@ public class ValidLoginPage extends BaseTest {
 	@Test(priority = 1,groups="smoke")
 	public void testValidLogin() {
 //	    1. Enter Valid User Name
-		Loginpage loginPage=new LoginPage(driver);
+		Loginpage loginPage=new Loginpage(driver);
 		loginPage.setUserName("admin");
 //	    2. Enter Valid Password
 		loginPage.setPassword("manager");
